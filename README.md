@@ -9,40 +9,58 @@
 -  Viewing all existing accounts &
 -  Deleting an account.
 
-## Output:
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/29b1571e-cac9-47b4-b0e1-32fa08bae741)
+## Overview
 
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/232cb0f2-9743-4233-90ee-e0ed03d4c848)
+This Bank Management System is a simple console-based application built in C++. It provides various functionalities to manage bank accounts, allowing users to perform operations such as creating accounts, depositing and withdrawing money, checking account details, modifying account information, viewing all existing accounts, and deleting accounts. This system is designed to handle basic banking operations and manage customer data efficiently.
 
-### 1. Creating a new account:
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/be10c49d-4f05-469a-b6e7-a4075e0b8b59)
+## Objectives
 
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/7de05fcd-50fa-4a69-9f9b-682e98edbf3e)
+The primary objectives of this Bank Management System are:
 
-### 2. Depositing money:
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/49bfab59-9b34-4e3a-82e3-97840f150fd8)
+1. **Simplify Banking Operations**: Provide a user-friendly interface for performing common banking tasks.
+2. **Data Management**: Efficiently manage customer data and account information.
+3. **Security**: Ensure secure handling of user data and transactions.
+4. **Scalability**: Allow easy addition of new features and functionalities as needed.
+5. **Educational Purpose**: Serve as an educational tool for learning C++ programming and understanding basic concepts of banking systems.
 
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/c45aa245-aa96-4aa1-8128-87f78fa7c92b)
+## Features
 
-### 3. Withdrawing money:
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/d07fbe91-0a12-47b1-a687-45e62f48da07)
+### 1. Creating a New Account
+- Allows users to create a new bank account by entering personal information such as name, address, contact details, and an initial deposit.
+- Generates a unique account number for each new account.
 
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/96d79705-7346-4363-89d4-56a623cdae12)
+### 2. Depositing Money
+- Enables users to deposit money into their account by entering the account number and the amount to be deposited.
+- Updates the account balance accordingly.
 
-### 4. Checking account details:
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/519e13cd-1c4f-4498-848e-a0cdefe9ada0)
+### 3. Withdrawing Money
+- Allows users to withdraw money from their account by providing the account number and the amount to be withdrawn.
+- Ensures that the withdrawal amount does not exceed the available balance.
 
-### 5. Modifying existing account:
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/aa99b5f2-dc17-42bb-93b6-89a6a3afcf1f)
+### 4. Checking Account Details
+- Provides users with the ability to check their account details by entering their account number.
+- Displays information such as account holder's name, account number, and current balance.
 
-### 6. Viewing all existing accounts:
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/8e37869a-e359-4e2e-bda7-53dd0d2c2c95)
+### 5. Modifying Account Information
+- Enables users to update their personal information associated with their account.
+- Allows changes to fields such as name, address, and contact details.
 
-### 7. Deleting account:
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/591a9c05-f554-41d9-9cef-6a727f3612bb)
+### 6. Viewing All Existing Accounts
+- Displays a list of all existing bank accounts.
+- Provides details for each account, including account number, account holder's name, and current balance.
 
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/7c37696e-8521-43ff-9cce-90d77b3e436c)
+### 7. Deleting an Account
+- Allows users to delete an existing account by entering the account number.
+- Ensures that the account is permanently removed from the system.
 
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/03f9f828-02c1-4b09-b117-ca62f04b226b)
+## Future Enhancements
 
-![image](https://github.com/mhy20401/Bank-Management-System-Cpp/assets/99351091/df31d95e-8325-4420-98d8-11f5d97963ba)
+While this system covers basic banking operations, there are several areas for potential enhancement:
+
+- **User Authentication**: Implement user authentication to ensure secure access to accounts.
+- **Transaction History**: Maintain a transaction history for each account to track deposits, withdrawals, and other operations.
+- **Interest Calculation**: Add functionality to calculate and apply interest to savings accounts.
+- **Graphical User Interface (GUI)**: Develop a GUI to make the system more user-friendly and visually appealing.
+- **Database Integration**: Integrate a database system for more robust data storage and management.
+
+This Bank Management System in C++ serves as a foundation for learning and understanding the basics of banking operations and C++ programming. With further development, it can be expanded into a more comprehensive and fully-featured banking application.
